@@ -1,0 +1,161 @@
+/* RESET Y FUENTE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #E8EBE4;
+  color: #444749;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contenedor {
+  display: flex;
+  width: 90%;
+  height: 98vh;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+/* SIDEBAR */
+.barra-lateral {
+  width:20%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #BEC1BB;
+}
+
+/* HEADER SUPERIOR */
+.barra-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 0.8rem;
+  border-bottom: 1px solid #BEC1BB;
+}
+
+.usuario {
+  display: flex;
+  align-items: center;
+}
+
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.5rem;
+}
+
+.nombre {
+  font-weight: bold;
+  font-size: 19px;
+    display: flex;
+  align-items: center;
+}
+
+.estado {
+  font-size: 14px;
+  color: #828485;
+}
+
+.iconos {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+}
+
+/* BOTÓN NUEVO CHAT */
+.boton-contenedor {
+  height: 125px;
+  border-bottom: 1px solid #BEC1BB;
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+}
+.boton-nuevo-chat {
+  width: 200px;
+  background-color: #A491D2;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 20px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton-nuevo-chat:hover {
+  background-color: #D1C6EA;
+}
+
+.boton-nuevo-chat:focus {
+  background-color: #C1C6C3;
+  outline: none;
+}
+
+/* CONTACTOS */
+.lista-contactos {
+  flex: 0 0 80%; /* Solo usa el basis, como indica la guía */
+  overflow-y: auto;
+}
+
+
+.contacto {
+  display: flex;
+  align-items: center;
+  padding: 1.4rem;
+  border-bottom: 1px solid #BEC1BB;
+  cursor: pointer;
+}
+
+.nombre-contacto {
+  font-weight: bold;
+  font-size: 17px;
+  color: #1B1F21;
+}
+
+.mensaje {
+  font-size: 14px;
+  color: #444749;
+}
+
+/* MAIN DERECHA */
+.principal {
+  flex: 1;
+  background-color: #F7F7F7;
+  display: flex;
+  flex-direction: column;  /* ← clave para alinear verticalmente */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bienvenida img {
+  width: 200px;
+  margin-bottom: 2rem;
+}
+
+.bienvenida h2 {
+  font-size: 45px;
+  color: #1B1F21;
+  margin-bottom: 1rem;
+}
+
+.bienvenida p {
+  font-size: 16px;
+  color: #444749;
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
