@@ -1,4 +1,4 @@
-/* RESET Y FUENTE */
+
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +24,7 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
 }
 
-/* SIDEBAR */
+
 .barra-lateral {
   width:20%;
   background-color: #FFFFFF;
@@ -33,7 +33,7 @@ body {
   border-right: 1px solid #BEC1BB;
 }
 
-/* HEADER SUPERIOR */
+
 .barra-superior {
   display: flex;
   justify-content: space-between;
@@ -74,7 +74,6 @@ body {
   font-size: 18px;
 }
 
-/* BOTÓN NUEVO CHAT */
 .boton-contenedor {
   height: 125px;
   border-bottom: 1px solid #BEC1BB;
@@ -104,12 +103,10 @@ body {
   outline: none;
 }
 
-/* CONTACTOS */
 .lista-contactos {
   flex: 0 0 80%; /* Solo usa el basis, como indica la guía */
   overflow-y: auto;
 }
-
 
 .contacto {
   display: flex;
@@ -130,7 +127,6 @@ body {
   color: #444749;
 }
 
-/* MAIN DERECHA */
 .principal {
   flex: 1;
   background-color: #F7F7F7;
